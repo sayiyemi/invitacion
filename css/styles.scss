@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "icons";
+    src: url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg'),
+         url("../fonts/websymbols-regular-webfont.eot");
+    src: url("../fonts/websymbols-regular-webfont.eot#iefix") format("embedded-opentype"), 
+    url("../fonts/websymbols-regular-webfont.woff") format("woff"),
+    url("../fonts/websymbols-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+// Variables
+
+$f1: 'Noto Sans JP', sans-serif;
+$f2: 'Overpass', sans-serif;
+$c1: #F2F2F2;
+$c2: #F2C9CC;
+$c3: #78A658;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.bg{
+    background-image: url(../img/bg2.png);
+    background-attachment: inherit;
+    background-position: center;
+    width: 100%;
+    height: 995px;
+    position: absolute;
+    z-index: -1;
+}
+#header{
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 955px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    flex-basis: 95%;
+    text-align: center;
+}
+
+#header h1{
+    font-family: $f2;
+    font-size: 100px;
+    font-weight: normal;
+    margin: 0px auto;
+    color: white;
+    text-shadow: 0px 0px 15px rgba($color: #000000, $alpha: 0.5);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+#header h2{
+    font-family: $f1;
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    text-shadow: 0px 0px 5px rgba($color: #000000, $alpha: 0.5);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#header h3{
+    font-family: $f1;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    text-shadow: 0px 0px 5px rgba($color: #000000, $alpha: 0.5);
+}
+
+// WRAPS
+
+.wrap-one{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: $c1;
+    width: 100%;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    font-family: $f1;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.wrap-two{
+    display: flex;
+    flex-flow: row wrap;
+    background: url(../img/bg3.png)!important;
+    background-position: center;
+    width: 100%;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-two{
+    background: url(../img/bg4.png)!important;
+}
+// Ceremonia, Fiesta y Confirmación
+
+.ceremonia,
+.fiesta,
+.confirmacion{
+    font-family: $f2;
+    flex-basis: 40%;
+    min-height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.wrap-one h2,
+.wrap-one h2,
+.galeria h2{
+    font-family: $f2;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 0px!important;
+}
+
+.wrap-one h3,
+.wrap-one h3,
+.galeria h3{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.wrap-one p,
+.wrap-one p,
+.galeria p{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.comollegar{
+    display: block;
+    background: #f1bebd;
+    border: none;
+    width: 160px;
+    padding: 15px 30px 10px 30px;
+    margin: 30px auto;
+    border-radius: 15px;
+    transition: all 300ms;
+    color: white;
+    font-family: $f2;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.masinfo a{
+    margin-top: 120px!important;
+    color: white!important;
+}
+
+.comollegar:hover{
+    background: #facecd;
+    border-radius: 20px;
+    color: white;
+}
+
+.ceremonia a,
+.fiesta a,
+confirmacion a{
+    font-family: $f2!important;
+    font-weight: 400!important;
+    color: white!important;
+    text-transform: uppercase!important;
+    text-decoration: none!important;
+    cursor: pointer!important;
+    font-size: 14px;
+}
+
+
+// Iconos
+
+.icon-color{
+    display: inline-block;
+    margin: 15px;
+}
+
+.icon-color img{
+    width: 70px;
+}
+
+.icon-white{
+    display: inline-block;
+    margin: 15px;
+}
+
+.icon-white img{
+    width: 70px;
+}
+
+// Regalos
+
+.regalos{
+    font-family: $f1;
+    width: 40%;
+    min-height: 200px;
+    text-align: center;
+    color: white;
+}
+
+.regalos h3{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.regalos p{
+    font-weight: 100;
+}
+
+
+
+// Disables CSS
+*, ::after, ::before {
+    box-sizing: unset!important;
+}
+
+// Carousel
+
+.nombres{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: $c2;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.nombres p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.carousel-inner {
+    width: 800px!important;
+    border: 10px solid rgb(236, 236, 236);
+    border-radius: 15px;
+}
+
+// Hashtag
+.instagram{
+    font-family: $f1;
+    width: 40%;
+    min-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+.instagram h3{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.instagram p{
+    font-weight: 100;
+}
+
+.boton-white{
+    font-family: $f2;
+    padding: 13px 20px 10px 20px;
+    background: rgba($color: #FFF, $alpha: 0.6);
+    border-radius: 15px;
+    color: black !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all 500ms;
+}
+
+.boton-white:hover{
+    background: white;
+    border-radius: 20px;
+}
