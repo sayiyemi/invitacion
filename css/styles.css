@@ -1,17 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
-@font-face {
-  font-family: "icons";
-  src: url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg"), url("../fonts/websymbols-regular-webfont.eot");
-  src: url("../fonts/websymbols-regular-webfont.eot#iefix") format("embedded-opentype"), url("../fonts/websymbols-regular-webfont.woff") format("woff"), url("../fonts/websymbols-regular-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 * {
   margin: 0px;
   padding: 0px;
@@ -221,8 +210,8 @@ confirmacion a {
 .nombres {
   padding-top: 20px;
   padding-bottom: 10px;
-  background: #F2C9CC;
-  color: white;
+  background: transparent;
+  color: #F2C9CC;
   margin-bottom: 10px;
   border-radius: 15px;
 }
