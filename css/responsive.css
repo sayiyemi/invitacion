@@ -1,3 +1,10 @@
+@media (max-width: 1300px){
+
+    .bg-two{
+        background-position-x: -500px!important;
+    }
+}
+
 @media (max-width: 855px){
 
     .bg {
@@ -9,6 +16,10 @@
         height: 600px;
         position: absolute;
         z-index: -1;
+    }
+
+    .bg-two{
+        background-position-x: -700px!important;
     }
 
     #header{
@@ -46,6 +57,11 @@
         z-index: -1;
     }
     
+    .bg-two{
+        background-position-x: -800px!important;
+    }
+
+
     #header h1{
         font-size: 80px;
     }
@@ -89,6 +105,10 @@
         font-size: 20px;
     }
 
+    .bg-two{
+        background-position-x: -900px!important;
+    }
+
     .ceremonia,
     .fiesta{
         flex-basis: 80%;
@@ -112,6 +132,10 @@
         height: 500px;
         position: absolute;
         z-index: -1;
+    }
+
+    .bg-two{
+        background-position-x: -900px!important;
     }
 
     .carousel-inner{
@@ -149,6 +173,10 @@
         height: 500px;
         position: absolute;
         z-index: -1;
+    }
+
+    .bg-two{
+        background-position-x: -1000px!important;
     }
 
 }
